@@ -1,0 +1,1 @@
+function parseEssentialDetails(){let e={};return e.performance=JSON.parse(JSON.stringify(window.performance))||null,e}console.log("<----- Injected script started running -----\x3e"),setInterval((()=>{let e=parseEssentialDetails();console.log("inject essential"+e),window.postMessage({type:"FROM_PAGE",essential:e})}),500);

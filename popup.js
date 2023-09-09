@@ -1,0 +1,1 @@
+console.log("<----- Extension script started running -----\x3e"),window.addEventListener("DOMContentLoaded",(function(){document.getElementById("tile-section").append("Hello world")}));

@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(((e,s,o)=>{console.log("Background script received a message:",e)}));

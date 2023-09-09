@@ -1,0 +1,1 @@
+function customResponseStrategy(e){return fetch(e)}self.addEventListener("install",(e=>{console.log("Service Worker installed")})),self.addEventListener("activate",(e=>{console.log("Service Worker activated")})),self.addEventListener("fetch",(e=>{console.log("Fetching:",e.request.url),e.respondWith(customResponseStrategy(e.request))}));
